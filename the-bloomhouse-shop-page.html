@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+        <!-- font-family: 'Judson', serif; font-family: 'Lato', sans-serif; -->
+        <title>The BloomHouse</title>
+    </head>
+
+    <body>
+        <main>
+            <a name="WelcomeSection"></a>
+            <header>
+                <center>
+                    <ul>
+                        <li><a href="the-bloomhouse-home-page.html">HOME</a></li>
+                        <li><a href="the-bloomhouse-shop-page.html">SHOP</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="#WelcomeSection" id="logo">THE BLOOMHOUSE</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                        <li><a href=""><i class="fas fa-user"></i></a></li>
+                        <li><a href=""><i class="fas fa-shopping-cart"></i></i></a></li>
+                    </ul>
+                </center>  
+            </header>
+
+            <section class="ShopPageWrapper">
+                <aside class="ShopPage_filter">
+                    <h2>FILTER</h2>
+                    <span><i class="fas fa-list"></i></span>
+                    <form name="filters" onsubmit="">
+                        <div class="filters_price">
+                            <h4>Price</h4>
+                            <div class="filters_range">
+                                <span>0$</span>
+                                <span>1000$</span>
+                            </div>
+                            <input type="range" id="price_range" name="price_range" min="0" max="1000">
+                        </div>
+                        <div class="filters_occasion">
+                            <h4>OCCASION</h4>
+                            <input type="checkbox" id="occasion1" name="occasion1" value="Anniversary">
+                            <label for="occasion1">Anniversary</label><br>
+                            <input type="checkbox" id="occasion2" name="occasion2" value="Birthday">
+                            <label for="occasion2">Birthday</label><br>
+                            <input type="checkbox" id="occasion3" name="occasion3" value="Compliment">
+                            <label for="occasion3">Compliment</label><br>
+                            <input type="checkbox" id="occasion4" name="occasion4" value="Getwellsoon">
+                            <label for="occasion4">Get well soon</label><br>
+                            <input type="checkbox" id="occasion5" name="occasion5" value="Prom">
+                            <label for="occasion5">Prom</label><br>
+                            <input type="checkbox" id="occasion6" name="occasion6" value="ValentinesDay">
+                            <label for="occasion6">St. Valentines Day</label><br>
+                            <input type="checkbox" id="occasion7" name="occasion7" value="Sympathy">
+                            <label for="occasion7">Sympathy</label><br>
+                            <input type="checkbox" id="occasion8" name="occasion8" value="Romantic">
+                            <label for="occasion8">Romantic</label><br>
+                            <input type="checkbox" id="occasion9" name="occasion9" value="Wedding">
+                            <label for="occasion9">Wedding</label><br>
+                        </div>
+                        <div class="filters_flowertypy">
+                            <h4>FLOWER TYPE</h4>
+                            <input type="checkbox" id="flowertype1" name="flowertype1" value="Alstroemeria">
+                            <label for="flowertype1">Alstroemeria</label><br>
+                            <input type="checkbox" id="flowertype2" name="flowertype2" value="Calla">
+                            <label for="flowertype2">Calla</label><br>
+                            <input type="checkbox" id="flowertype3" name="flowertype3" value="Chrysanthemum">
+                            <label for="flowertype3">Chrysanthemum</label><br>
+                            <input type="checkbox" id="flowertype4" name="flowertype4" value="Cloves">
+                            <label for="flowertype4">Cloves</label><br>
+                            <input type="checkbox" id="flowertype5" name="flowertype5" value="Eustoma">
+                            <label for="flowertype5">Eustoma</label><br>
+                            <input type="checkbox" id="flowertype6" name="flowertype6" value="Freesia">
+                            <label for="flowertype6">Freesia</label><br>
+                            <input type="checkbox" id="flowertype7" name="flowertype7" value="Gerber">
+                            <label for="flowertype7">Gerber</label><br>
+                            <input type="checkbox" id="flowertype8" name="flowertype8" value="Gypsophila">
+                            <label for="flowertype8">Gypsophila</label><br>
+                            <input type="checkbox" id="flowertype9" name="flowertype9" value="Hydrangea">
+                            <label for="flowertype9">Hydrangea</label><br>
+                            <input type="checkbox" id="flowertype10" name="flowertype10" value="Iris">
+                            <label for="flowertype10">Iris</label><br>
+                            <input type="checkbox" id="flowertype11" name="flowertype11" value="Lily">
+                            <label for="flowertype11">Lily</label><br>
+                            <input type="checkbox" id="flowertype12" name="flowertype12" value="Lisianthus">
+                            <label for="flowertype12">Lisianthus</label><br>
+                            <input type="checkbox" id="flowertype13" name="flowertype13" value="Orchid">
+                            <label for="flowertype13">Orchid</label><br>
+                            <input type="checkbox" id="flowertype14" name="flowertype14" value="Peony">
+                            <label for="flowertype14">Peony</label><br>
+                            <input type="checkbox" id="flowertype15" name="flowertype15" value="Rose">
+                            <label for="flowertype15">Rose</label><br>
+                            <input type="checkbox" id="flowertype16" name="flowertype16" value="Sunflower">
+                            <label for="flowertype16">Sunflower</label><br>
+                            <input type="checkbox" id="flowertype17" name="flowertype17" value="Tulip">
+                            <label for="flowertype17">Tulip</label><br>
+                        </div>
+                        <input type="submit" value="APPLY" id="btn-apply">
+                    </form>
+                </aside>
+
+                <section class="ShopPage_products">
+                    <div class="shopGallery_elements" id="shopGallery_element1">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/e8/04/1f/e8041fb09aa4ae717f29ac9d59c4445a.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element2">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/57/bf/88/57bf885946964d676775731fdb8c8378.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element3">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/00/17/1a/00171a75d309d00c7515d513aeb91e4e.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element4">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/b5/34/b7/b534b7d823c84cc7bee5413603ec965f.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element5">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/74/10/84/74108409781a52b6809eec2112ba728f.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element6">
+                        <img alt="bouquet" src="https://i.pinimg.com/736x/67/dc/84/67dc84d0e1146ef88934bab1ec1b2ecd.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element7">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/64/fb/b3/64fbb3d7efcae4e1d1b37e89603b5109.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element8">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/4c/0e/0b/4c0e0b39684738c3b6bfe7242a92cb91.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element9">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/7a/81/98/7a81987c8c7193a8ab3700317b015b69.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element10">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/95/8f/5c/958f5cb081c8b865228eaf761a767e52.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element11">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/f1/46/f9/f146f9d7641b4b646cb30e89fa41e555.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element12">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/2a/a1/5c/2aa15c9a75c149a24420f10b0c15b99e.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element13">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/f5/85/04/f585046c6ed9f8f7b2b1f5a2fed3d306.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element14">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/4c/0e/0b/4c0e0b39684738c3b6bfe7242a92cb91.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element15">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/ef/ca/9b/efca9b7841fd28e25973aae0787e0c6e.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+
+                    <div class="shopGallery_elements" id="shopGallery_element16">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/5c/c1/b1/5cc1b1800db9126a1faddc15f76be906.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element17">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/7a/81/98/7a81987c8c7193a8ab3700317b015b69.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+                    <div class="shopGallery_elements" id="shopGallery_element18">
+                        <img alt="bouquet" src="https://i.pinimg.com/564x/b5/34/b7/b534b7d823c84cc7bee5413603ec965f.jpg" width="20%">
+                        <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                        <h4>100$</h4>
+                    </div>
+
+
+                    <button href="">LOAD MORE</button>
+                        
+                </section>
+            </section>
+
+
+
+            <footer>
+                <h1>THE BLOOMHOUSE</h1>
+                <div class="AboutFooter">
+                    <h3>ABOUT</h3>
+                    <ul class="AboutFooter_list">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="HelpFooter">
+                    <h3>HELP</h3>
+                    <ul class="HelpFooter_list">
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Return</a></li>
+                        <li><a href="">Shipping info</a></li>
+                    </ul>
+                </div>
+                <div class="ContactInfoFooter">
+                    <ul class="ContactInfoFooter_list">
+                        <li>
+                            <ul class="ContactInfoFooter_list_socials">
+                                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+                                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </li>
+                        <li>thebloomhouse@gmail.com</li>
+                        <li>+38 (000) 000 - 00 - 00</li>
+                        <li>Address</li>
+                        <li>(c) 2023 The BloomHouse</li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </body>

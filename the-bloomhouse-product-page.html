@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+        <!-- font-family: 'Judson', serif; font-family: 'Lato', sans-serif; -->
+        <title>The BloomHouse</title>
+    </head>
+
+    <body>
+        <main>
+            <a name="WelcomeSection"></a>
+            <header>
+                <center>
+                    <ul>
+                        <li><a href="the-bloomhouse-home-page.html">HOME</a></li>
+                        <li><a href="the-bloomhouse-shop-page.html">SHOP</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="#WelcomeSection" id="logo">THE BLOOMHOUSE</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                        <li><a href=""><i class="fas fa-user"></i></a></li>
+                        <li><a href=""><i class="fas fa-shopping-cart"></i></i></a></li>
+                    </ul>
+                </center>  
+            </header>
+
+            <section class="Product_Wrapper">
+                <div><img alt="product-photo" src="https://i.pinimg.com/564x/57/bf/88/57bf885946964d676775731fdb8c8378.jpg" width="20%"></div>
+                <div class="product_text">
+                    <h1>BOUQUET NAME</h1>
+                    <h1>100$</h1>
+                    <p>Description of the bouquet Description of the bouquet Description of the bouquet Description of the bouquet Description of the bouquet</p>
+                    <form name="product_quantity" onsubmit="">
+                        <label for="quantity">Quantity: </label>
+                        <input list="quantities" name="quantity" id="quantity">
+                        <datalist id="quantities">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                        </datalist>
+                      <input type="submit" value="ADD TO CART" id="btn-addtocart">
+                    </form>
+                </div>
+            </section>
+
+
+            <section class="SeeAlsoSection">
+                <center>
+                    <h1>SEE ALSO</h1>
+                    <div class="shopGallery">
+                        <div class="shopGallery_elements" id="shopGallery_element1">
+                            <img alt="bouquet" src="https://i.pinimg.com/564x/5c/c1/b1/5cc1b1800db9126a1faddc15f76be906.jpg" width="20%">
+                            <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                            <h4>100$</h4>
+                        </div>
+                        <div class="shopGallery_elements" id="shopGallery_element2">
+                            <img alt="bouquet" src="https://i.pinimg.com/564x/b5/34/b7/b534b7d823c84cc7bee5413603ec965f.jpg" width="20%">
+                            <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                            <h4>100$</h4>
+                        </div>
+                        <div class="shopGallery_elements" id="shopGallery_element3">
+                            <img alt="bouquet" src="https://i.pinimg.com/564x/e8/04/1f/e8041fb09aa4ae717f29ac9d59c4445a.jpg" width="20%">
+                            <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
+                            <h4>100$</h4>
+                        </div>
+                    </div>
+                </center>
+            </section>
+
+
+
+            <footer>
+                <h1>THE BLOOMHOUSE</h1>
+                <div class="AboutFooter">
+                    <h3>ABOUT</h3>
+                    <ul class="AboutFooter_list">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="HelpFooter">
+                    <h3>HELP</h3>
+                    <ul class="HelpFooter_list">
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Return</a></li>
+                        <li><a href="">Shipping info</a></li>
+                    </ul>
+                </div>
+                <div class="ContactInfoFooter">
+                    <ul class="ContactInfoFooter_list">
+                        <li>
+                            <ul class="ContactInfoFooter_list_socials">
+                                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+                                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </li>
+                        <li>thebloomhouse@gmail.com</li>
+                        <li>+38 (000) 000 - 00 - 00</li>
+                        <li>Address</li>
+                        <li>(c) 2023 The BloomHouse</li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </body>
