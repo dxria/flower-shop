@@ -1,0 +1,120 @@
+h1 {
+    font-family: 'Judson', serif;
+    font-size: 3vw;
+
+}
+
+
+/*------------------------------ welcome ------------------------------*/
+.WelcomeSection{
+    max-width: 100vw;
+    max-height: 90vh;
+  }
+
+.WelcomeSection_imageBack {
+    background-image: url("https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+  }
+.WelcomeSection_textBlock {
+    top: 15%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.WelcomeSection_textBlock h1 {
+    color: var(--dark-pink-color);
+    font-family: 'Judson', serif;
+    font-size: 5vh;
+    font-weight: 700;
+}
+.WelcomeSection_textBlock button{
+    margin: 2vh 0;
+}
+@media (min-width: 1055px) {
+    .WelcomeSection_textBlock {
+        position: absolute;
+        top: 50vh;
+        left: 60vw;
+        text-align: right;
+    }
+    .WelcomeSection_textBlock h1 {
+        color: var(--dark-pink-color);
+        font-family: 'Judson', serif;
+        font-size: 6vh;
+    }
+
+}
+/*------------------------------ featured ------------------------------*/
+
+.FeaturedSection {
+    max-height: fit-content;
+}
+.FeaturedSection h1 {
+    font-size: 6vh;
+    margin: 10vh 0 3vh 0;
+}
+.shopGallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.FeaturedSection button {
+    margin: 20px 0 100px 0;
+}
+.shopGallery_elements {
+    background-color: var(--light-pink-color);
+    width: 320px;
+    margin: 4vh;
+}
+
+.shopGallery_elements img {
+    width: 256px;
+    margin: 32px;
+}
+
+.shopGallery_elements h4, .shopGallery_elements a {
+    font-family: 'Judson', serif;
+    margin: 0 0 4vh 0;
+}
+
+/*------------------------------ promocode ------------------------------*/
+
+.PromocodeSection {
+    height: 40vh;
+    background-color: var(--light-pink-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.PromocodeSection h1 {
+    font-size: 6vh;
+}
+.PromocodeSection div {
+    width: 500px;
+    margin: 10px;
+}
+
+
+input[type="email"] {
+    background-color: var(--light-pink-color);
+    padding:2vh 4vh;
+    border: none;
+    box-shadow: inset 0.1vh 0.1vh 0.2vh 0.2vh var(--dark-pink-color);
+    width: 300px;
+}
+
+input[type="email"]::placeholder{
+    font-family: 'Lato', sans-serif; 
+    font-weight: 400;
+    color:var(--medium-pink-color);
+}
+
+#btn-submit{
+    margin:0;
+}

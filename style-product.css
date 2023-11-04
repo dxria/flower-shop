@@ -1,0 +1,73 @@
+h1 {
+    font-family: 'Judson', serif;
+    font-size: 4vh;
+    font-weight: 400;
+}
+
+/*------------------------------ main product ------------------------------*/
+
+.Product_Wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0 0 0;
+}
+
+.product_photo {
+    text-align: center;
+}
+.product_photo img {
+    width: 80%;
+
+}
+
+.product_text p {
+    margin: 30px 0;
+}
+form label, form input {
+    font-weight: 700;
+}
+
+#quantity {
+    width: 50px;
+    padding: 2px;
+    border: none;
+}
+
+#btn-addtocart {
+    margin: 30px 0;
+}
+
+
+/*------------------------------ see also ------------------------------*/
+
+.SeeAlsoSection {
+    max-height: fit-content;
+}
+.SeeAlsoSection h1 {
+    font-size: 6vh;
+    margin: 10vh 0 3vh 0;
+}
+.shopGallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0 0 100px 0;;
+}
+
+.shopGallery_elements {
+    background-color: var(--light-pink-color);
+    width: 320px;
+    margin: 4vh;
+}
+
+.shopGallery_elements img {
+    width: 256px;
+    margin: 32px;
+}
+
+.shopGallery_elements h4, .shopGallery_elements a {
+    font-family: 'Judson', serif;
+    margin: 0 0 4vh 0;
+}

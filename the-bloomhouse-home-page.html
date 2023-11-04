@@ -2,37 +2,43 @@
     <head>
         <meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style-home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
         <!-- font-family: 'Judson', serif; font-family: 'Lato', sans-serif; -->
         <title>The BloomHouse</title>
     </head>
 
     <body>
+        <a name="WelcomeSection"></a>
+        <header>
+            <a href="#WelcomeSection" id="logo">THE BLOOMHOUSE</a>
+            <input class="side-menu" type="checkbox" id="side-menu"/>
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="the-bloomhouse-home-page.html">HOME</a></li>
+                    <li><a href="the-bloomhouse-shop-page.html">SHOP</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li id="logo-appear"><a href="#WelcomeSection">THE BLOOMHOUSE</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                    <li><a href=""><i class="fas fa-user"></i></a></li>
+                    <li><a href=""><i class="fas fa-shopping-cart"></i></i></a></li>
+                </ul>
+            </nav>
+        </header>
         <main>
-            <a name="WelcomeSection"></a>
-            <header>
-                <center>
-                    <ul>
-                        <li><a href="the-bloomhouse-home-page.html">HOME</a></li>
-                        <li><a href="the-bloomhouse-shop-page.html">SHOP</a></li>
-                        <li><a href="">BLOG</a></li>
-                        <li><a href="#WelcomeSection" id="logo">THE BLOOMHOUSE</a></li>
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">CONTACT US</a></li>
-                        <li><a href=""><i class="fas fa-user"></i></a></li>
-                        <li><a href=""><i class="fas fa-shopping-cart"></i></i></a></li>
-                    </ul>
-                </center>  
-            </header>
-
+            
             <section class="WelcomeSection">
                 <div class="WelcomeSection_imageBack"></div>
                 <div class="WelcomeSection_textBlock">
-                    <h1>ESSENCE OF YOUR LOVE
-                        AND AFFECTION   
+                    <h1>ESSENCE OF YOUR LOVE<br>
+                        AND AFFECTION<br>   
                         IN ONE BOUQUET</h1>
-                    <button href="">SHOP NOW</button>
+                    <button class="btn" onclick="window.location.href='the-bloomhouse-shop-page.html'">SHOP NOW</button>
                 </div>
             </section>
 
@@ -43,25 +49,26 @@
                     <div class="shopGallery">
                         <div class="shopGallery_elements" id="shopGallery_element1">
                             <img alt="bouquet" src="https://i.pinimg.com/564x/5c/c1/b1/5cc1b1800db9126a1faddc15f76be906.jpg" width="20%">
-                            <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
-                            <h4>100$</h4>
+                            <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a>
+                            <br>100$</h4>
                         </div>
                         <div class="shopGallery_elements" id="shopGallery_element2">
                             <img alt="bouquet" src="https://i.pinimg.com/564x/ef/ca/9b/efca9b7841fd28e25973aae0787e0c6e.jpg" width="20%">
-                            <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
-                            <h4>100$</h4>
+                            <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a>
+                                <br>100$</h4>
                         </div>
                         <div class="shopGallery_elements" id="shopGallery_element3">
                             <img alt="bouquet" src="https://i.pinimg.com/564x/74/10/84/74108409781a52b6809eec2112ba728f.jpg" width="20%">
-                            <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a></h4>
-                            <h4>100$</h4>
+                            <h4><a href="the-bloomhouse-product-page.html">BOUQUET NAME</a>
+                                <br>100$</h4>
                         </div>
-                        <button href="the-bloomhouse-shop-page.html">SHOP NOW</button>
+                        
                     </div>
+                    <button class="btn" onclick="window.location.href='the-bloomhouse-shop-page.html'">SHOP NOW</button>
                 </center>
             </section>
 
-            <section class="WhyUsSection">
+            <!-- <section class="WhyUsSection">
                 <div class="WhyUsSection_bulletpoints">
                     <h1>WHY CHOOSING US?</h1>
                     <ol class="WhyUsSection_bulletpoints_list">
@@ -119,10 +126,10 @@
                             <h4>TOPIC NAME</h4>
                             <p>Start of topic content...</p>
                         </div>
-                        <button href="">EXPLORE BLOG</button>
+                        <button class="btn" href="">EXPLORE BLOG</button>
                     </div>
                 </center>
-            </section>
+            </section> -->
 
             <section class="PromocodeSection">
                 <div class="promocodeText">
@@ -134,18 +141,17 @@
                 </div>
                 <div class="promocodeForm">
                     <form name="promocode" onsubmit="">
-                        <input type="email" name="email" placeholder="Enter e-mail address" required>
-                        <input type="submit" value="SUBMIT" id="btn-submit">
+                        <input type="email" name="email" placeholder="Enter e-mail address" required id="email-form">
+                        <input type="submit" value="SUBMIT" id="btn-submit" class="btn">
                     </form>
                 </div>
                 
             </section>
 
             <footer>
-                <h1>THE BLOOMHOUSE</h1>
                 <div class="AboutFooter">
-                    <h3>ABOUT</h3>
                     <ul class="AboutFooter_list">
+                        <li><h3>ABOUT</h3></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Blog</a></li>
                         <li><a href="">Policy</a></li>
@@ -153,8 +159,8 @@
                     </ul>
                 </div>
                 <div class="HelpFooter">
-                    <h3>HELP</h3>
                     <ul class="HelpFooter_list">
+                        <li><h3>HELP</h3></li>
                         <li><a href="">FAQs</a></li>
                         <li><a href="">Contact</a></li>
                         <li><a href="">Return</a></li>
@@ -163,6 +169,7 @@
                 </div>
                 <div class="ContactInfoFooter">
                     <ul class="ContactInfoFooter_list">
+                        <li><h1>THE BLOOMHOUSE</h1></li>
                         <li>
                             <ul class="ContactInfoFooter_list_socials">
                                 <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
