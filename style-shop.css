@@ -74,7 +74,7 @@ input[type="range"] {
     margin: 20px 0 100px 0;
 }
 .shopGallery_elements {
-
+    display: none;
     background-color: var(--light-pink-color);
     width: 320px;
     margin: 4vh;
@@ -89,4 +89,12 @@ input[type="range"] {
     font-family: 'Judson', serif;
     text-align: center;
     margin: 0 0 4vh 0;
+}
+
+button {
+    margin: 20px 0 100px 0;
+}
+
+#show-less-btn {
+    display: none;
 }
